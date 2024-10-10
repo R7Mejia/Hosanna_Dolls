@@ -9,12 +9,6 @@ export const productsData = {
 
     // Add more male saints...
     {
-      id: 1,
-      name: "Beato Karl of Austria",
-      price: 18.99,
-      imageUrl: "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
-    },
-    {
       id: 2,
       name: "Beato Karl of Austria",
       price: 18.99,
@@ -22,6 +16,36 @@ export const productsData = {
     },
     {
       id: 3,
+      name: "Beato Karl of Austria",
+      price: 18.99,
+      imageUrl: "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
+    },
+    {
+      id: 4,
+      name: "Beato Karl of Austria",
+      price: 18.99,
+      imageUrl: "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
+    },
+    {
+      id: 5,
+      name: "Beato Karl of Austria",
+      price: 18.99,
+      imageUrl: "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
+    },
+    {
+      id: 6,
+      name: "Beato Karl of Austria",
+      price: 18.99,
+      imageUrl: "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
+    },
+    {
+      id: 7,
+      name: "Beato Karl of Austria",
+      price: 18.99,
+      imageUrl: "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
+    },
+    {
+      id: 8,
       name: "Beato Karl of Austria",
       price: 18.99,
       imageUrl: "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
@@ -35,6 +59,12 @@ export const productsData = {
       imageUrl: "../imagenes/Female Saints/Madre Teresa de Calcuta.jpg",
     },
     // Add more female saints...
+    {
+      id: 2,
+      name: "Madre Teresa of Calcuta",
+      price: 14.99,
+      imageUrl: "../imagenes/Female Saints/Madre Teresa de Calcuta.jpg",
+    },
   ],
 
   rosaries: [
