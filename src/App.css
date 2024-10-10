@@ -1,0 +1,345 @@
+/* General Styles */
+body {
+
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+
+
+h1, h2 {
+    margin: 0;
+}
+
+
+/* Header */
+
+header {
+
+    background-color: #e08ef0;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img {
+    max-height: 50px; /* Adjust as needed for logo size */
+}
+
+
+
+nav {
+    display: flex; /* Make the nav a flex container */
+}
+
+
+
+.nav-links {
+    display: flex; /* Keep the links inline */
+}
+
+
+
+nav a {
+
+    color: #f1ebf0;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+
+}
+
+
+
+nav a:hover {
+
+    color: #0e0d0d;
+
+}
+
+
+
+/* Main Content */
+
+.product-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+
+
+.product-card {
+
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px; /* Set a consistent width for product cards */
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+.product-card:hover {
+
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.product-card img {
+
+    max-width: 100%; /* Ensure the image doesn’t exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 150px; /* Set a maximum height for the images */
+    border-radius: 5px;
+    object-fit: cover; /* Ensure the image fits neatly without distortion */
+
+}
+
+/* Buttons */
+
+button {
+
+    background-color: #0f03f3;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+
+
+button:hover {
+
+    background-color: #5a727c;
+
+}
+
+
+
+/* Container to align Buy and Bin buttons horizontally */
+
+.cart-item-buttons {
+
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the buttons */
+
+}
+
+
+
+/* Buy Button */
+
+.buy-button {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+}
+
+
+
+.buy-button:hover {
+
+    background-color: #edf6ee;
+    color: #5a727c;
+
+}
+
+
+
+/* Bin Button */
+
+.bin-button {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem; /* Adjust the width */
+    height: 2.5rem;
+    background-color: rgb(255, 95, 95);
+    cursor: pointer;
+    border: 2px solid rgb(255, 201, 201);
+    transition-duration: 0.3s;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.bin-bottom {
+
+    width: 15px;
+    z-index: 2;
+
+}
+
+.bin-top {
+
+    width: 17px;
+    transform-origin: right;
+    transition-duration: 0.3s;
+    z-index: 2;
+
+}
+
+
+
+.bin-button:hover .bin-top {
+
+    transform: rotate(45deg);
+
+}
+
+
+.bin-button:hover {
+
+    background-color: rgb(255, 0, 0);
+
+}
+
+
+
+.bin-button:active {
+
+    transform: scale(0.9);
+
+}
+
+
+.garbage {
+
+    position: absolute;
+    width: 14px;
+    height: auto;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+
+}
+
+.bin-button:hover .garbage {
+
+    animation: throw 0.4s linear;
+
+}
+
+
+@keyframes throw {
+
+    from {
+
+        transform: translate(-400%, -700%);
+
+        opacity: 0;
+
+    }
+
+    to {
+
+        transform: translate(0%, 0%);
+
+        opacity: 1;
+
+    }
+
+}
+
+/* Category Bar Styles */
+.category-bar {
+    background-color: #95d8d5;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+/* Links inside the category bar */
+.category-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.category-bar a:hover {
+    background-color: #5a727c;
+}
+/* Cart Count */
+.cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 90%;
+    padding: 0.1rem 0.3rem;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    right: 27px; /* Adjust the right position as needed */
+}
+/* Hamburger Menu Button */
+.burger-menu {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Menu that opens */
+.menu {
+    display: none;
+    flex-direction: column;
+    background-color: #0558f3;
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+/* Display the menu when the burger is clicked */
+.menu.open {
+    display: flex;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
