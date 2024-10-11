@@ -5,7 +5,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import CartPage from './Pages/CartPage';
-import CategoryPage from './pages/CategoryPage';
+import CategoryPage from './Pages/CategoryPage';
 
 //import AboutPage from './Pages/AboutPage';
 
