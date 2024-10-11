@@ -21,7 +21,7 @@ const CategoryPage = () => {
             </button>
         </div>
     );
-
+    
     return (
         <div>
             <h2>{categoryName.replace(/([A-Z])/g, ' $1')}</h2>
