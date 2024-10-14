@@ -41,6 +41,7 @@ const CategoryPage = () => {
                         <div key={product.id} className="carousel-item">
                             <img src={product.imageUrl} alt={product.name} className="product-image" />
                             <h3>{product.name}</h3>
+                            <p>{product.description}</p>
                             <p>${product.price}</p>
                             <button onClick={() => addToCart(product)}>Add to Cart</button>
                         </div>

@@ -17,6 +17,7 @@ export const productsData = {
     {
       id: 3,
       name: "Beato Karl of Austria",
+      description: "Add a description of each image here...",
       price: 18.99,
       imageUrl: "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
     },

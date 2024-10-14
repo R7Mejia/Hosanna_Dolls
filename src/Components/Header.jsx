@@ -12,6 +12,7 @@ const Header = () => {
                 <img src="../imagenes/logo.jpg" alt="Logo" />
             </div>
             <nav>
+                <Link to="/about">About</Link>
                 <Link to="/">Home</Link>
                 {/* <Link to="/buy">Buy</Link> */}
                 <Link to="/cart">
@@ -20,6 +21,8 @@ const Header = () => {
                         <span className="cart-count">{cartItemCount}</span>
                     )}
                 </Link>
+                
+
             </nav>
         </header>
     );

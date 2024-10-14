@@ -1,11 +1,19 @@
 /* General Styles */
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Arial', sans-serif;
     margin: 0 1px 0 1px;
-    padding: 0;
+    padding: 0 ;
     background-color: #f4f4f4;
     color: #333;
 }
+
+
+
 
 h1, h2 {
     margin: 0;
@@ -25,6 +33,18 @@ header {
     max-height: 50px; /* Adjust as needed for logo size */
 }
 
+/**************** FOR THE ABOUT PAGE*/
+.logo2 img{
+    max-height: 150px;
+    padding: 1rem 3rem;
+
+}
+.parrafo{
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+    padding: 0.1rem 3rem;
+}
+/*************END**************/
 nav {
     display: flex; /* Make the nav a flex container */
 }
@@ -216,6 +236,7 @@ button:hover {
     right: 27px; /* Adjust the right position as needed */
 }
 
+
 /********** Carousel container styles ******/
 .carousel .carousel-item {
     text-align: center;
@@ -317,4 +338,39 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav a {
+        margin: 0.5rem;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+
+    .carousel .carousel-item {
+        padding: 0.5rem;
+    }
+
+    .carousel-arrows {
+        top: 10px; /* Adjust arrow position for smaller screens */
+    }
+
+    .burger-menu {
+        display: block; /* Show the burger menu on smaller screens */
+    }
+
+    .menu {
+        display: none; /* Hide the menu by default */
+    }
+
+    .menu.open {
+        display: flex; /* Show the menu when the burger is clicked */
+    }
 }
