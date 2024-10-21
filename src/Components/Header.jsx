@@ -12,8 +12,8 @@ const Header = () => {
                 <img src="../imagenes/logo.jpg" alt="Logo" />
             </div>
             <nav>
-                <Link to="/about">About</Link>
                 <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
                 {/* <Link to="/buy">Buy</Link> */}
                 <Link to="/cart">
                     Cart 

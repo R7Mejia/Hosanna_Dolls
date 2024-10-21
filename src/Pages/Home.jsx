@@ -17,7 +17,7 @@ const products = [
 const Home = () => (
     <div>
         <CategoryBar />
-        <h2>New Products...</h2>
+        <h2>New Products...(could this be a page where new products/offers are posted?</h2>
         <div className="product-list">
             {products.map(product => (
                 <ProductCard key={product.id} product={product} />
