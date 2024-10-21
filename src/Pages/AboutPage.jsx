@@ -13,7 +13,7 @@ function AboutPage() {
                     <br /><br />
                     We are dedicated to offer unique products that are not only cute but also meaningful, serving as a way to connect with faith and the joy of living it every day. We want everyone who receives a Hosanna doll to feel the closeness of God's love and the importance of being a light in the world.
                     <br /><br />
-                    At Hosanna Dolls, we believe in the power of art to transform hearts and accompany each person on their spiritual journey. Welcome to our world of faith, creativity, and tenderness!
+                    At Hosanna Dolls, we believe in the power of art to transform hearts and accompany each person on their spiritual journey. Welcome to our world of faith, creativity, and tenderness! <br></br> <br></br>
                 </p>
             </div>
         </>

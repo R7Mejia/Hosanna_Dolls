@@ -17,7 +17,7 @@ const Cart = () => {
                             <div className="cart-item-buttons">
                                 {/* Buy Button */}
                                 <a
-                                    href="https://docs.google.com/forms/your-google-form-link"
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSdvGuLEPw_hOpNnnhIzjAc3OzYsv8sXcT6lI9-isShDyS2xgQ/viewform?usp=pp_url"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="buy-button"

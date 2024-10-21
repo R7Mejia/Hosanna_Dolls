@@ -41,8 +41,9 @@ header {
 }
 .parrafo{
     display: flex;
-    font-family:'Courier New', Courier, monospace;
+    font-family:serif;
     padding: 0.1rem 3rem;
+    text-align: justify;
 }
 /*************END**************/
 nav {

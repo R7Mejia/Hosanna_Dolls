@@ -5,7 +5,7 @@ const ProductCard = ({ product }) => {
     const { addToCart } = useCart();
 
     const handleBuyClick = () => {
-        const googleFormURL = "https://docs.google.com/forms/d/e/your-google-form-id/viewform";
+        const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSdvGuLEPw_hOpNnnhIzjAc3OzYsv8sXcT6lI9-isShDyS2xgQ/viewform?usp=pp_url";
         const urlWithProductInfo = `${googleFormURL}?usp=pp_url&entry.1234567890=${encodeURIComponent(product.name)}&entry.9876543210=${product.price}`;
         window.open(urlWithProductInfo, '_blank');
     };
