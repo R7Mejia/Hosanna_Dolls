@@ -17,11 +17,15 @@ const products = [
 const Home = () => (
     <div>
         <CategoryBar />
-        <h2>New Products...(could this be a page where new products/offers are posted?</h2>
+        <h1>New Products</h1>
         <div className="product-list">
             {products.map(product => (
                 <ProductCard key={product.id} product={product} />
             ))}
+            <div className='descripcion'>
+                <p>General product description: All dolls are 20 cm tall, made of polyester yarn, polyester stuffing and safety eyes. Most extra details are plastic beads, cloth flowers, wooden or plastic crosses, pipe cleaners, etc.
+            </p>
+            </div>
         </div>
     </div>
 );

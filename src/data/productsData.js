@@ -4,7 +4,11 @@ export const productsData = {
       id: 1,
       name: "Beato Karl of Austria",
       price: 18.99,
-      imageUrl: "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
+      imageUrl: [
+        "../imagenes/Male Saints/Beato Karl of Austria.jpeg",
+        "../imagenes/Male Saints/Fulton Sheen.jpeg",
+        "../imagenes/Male Saints/Padre Pio.jpg"
+      ],
     },
 
     // Add more male saints...

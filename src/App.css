@@ -16,9 +16,15 @@ body {
 
 
 h1, h2 {
+    font-family: fantasy;
+    color:#0f03f3;
     margin: 0;
 }
+.descripcion{
+    font-family: fantasy;
+    color:#2c2d53;
 
+}
 /* Header */
 header {
     background-color: #e08ef0;
@@ -37,11 +43,12 @@ header {
 .logo2 img{
     max-height: 150px;
     padding: 1rem 3rem;
+    
 
 }
 .parrafo{
     display: flex;
-    font-family:serif;
+    font-family:fantasy;
     padding: 0.1rem 3rem;
     text-align: justify;
 }
@@ -76,12 +83,14 @@ nav a:hover {
 .product-card {
     background-color: #ffffff;
     border: 1px solid #ddd;
+    font-family: fantasy;
     border-radius: 8px;
     margin: 1rem;
     padding: 1rem;
-    width: 200px; /* Set a consistent width for product cards */
+    width: 200px;
     text-align: center;
     transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden; /* Ensure images stay within the card */
 }
 
 .product-card:hover {
@@ -90,12 +99,14 @@ nav a:hover {
 }
 
 .product-card img {
-    max-width: 100%; /* Ensure the image doesn’t exceed its container width */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 150px; /* Set a maximum height for the images */
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
     border-radius: 5px;
-    object-fit: cover; /* Ensure the image fits neatly without distortion */
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
 }
+
 
 /* Buttons */
 button {
@@ -110,7 +121,7 @@ button {
 }
 
 button:hover {
-    background-color: #5a727c;
+    background-color: #5651ed;
 }
 
 /* Container to align Buy and Bin buttons horizontally */
@@ -286,7 +297,7 @@ button:hover {
 
 /* Change color on hover */
 .carousel.carousel-slider .control-arrow:hover {
-    background-color: #448cf1; /* Change the background on hover */
+    background-color: #3485f7; /* Change the background on hover */
     color: rgb(243, 12, 12); /* Ensure text color contrasts well */
     opacity: 0.8;
 }
@@ -296,7 +307,7 @@ button:hover {
 }
 /*These are the default(from the program/founts*/
 .carousel .control-prev.control-arrow:before {
-    border-right: 8px solid #ff253a;
+    border-right: 8px solid #fc3448;
 }
 .carousel .control-next.control-arrow:before {
     border-left: 8px solid #ff253a;

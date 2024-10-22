@@ -5,6 +5,7 @@ const Footer = () => {
 
     return (
         <footer>
+            <h3>Here goes Social Network</h3>
             <p>© {currentYear} R_Mejia | Programmer </p>
         </footer>
     );
