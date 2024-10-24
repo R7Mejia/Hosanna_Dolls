@@ -8,7 +8,7 @@ function AboutPage() {
                 <img src={logo} alt="logo" />
             </div>
             <div className="parrafo">
-                <h3>"centrar imagen y who we are"</h3>
+              
                 <p>Who we are <br /><br />
                     At Hosanna Dolls, we are a community passionate about creativity, art, and faith. Our mission is to inspire and bring joy through the creation of personalized dolls that reflect the beauty and diversity of spirituality. Each doll is lovingly and carefully designed to convey values of hope, kindness, and devotion.
                     <br /><br />

@@ -52,6 +52,7 @@ header {
     padding: 0.1rem 3rem;
     text-align: justify;
 }
+
 /*************END**************/
 nav {
     display: flex; /* Make the nav a flex container */
@@ -347,7 +348,7 @@ button:hover {
     display: flex;
 }
 
-/* Footer */
+/*********** Footer */
 footer {
     background-color: #35424a;
     color: #ffffff;
@@ -357,7 +358,37 @@ footer {
     bottom: 0;
     width: 100%;
 }
-/* Media Queries for Responsiveness */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.social-icons li {
+    margin: 0 0.5rem;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover .fa-facebook {
+    color: #3b5998; /* Facebook blue */
+}
+
+.social-icons a:hover .fa-instagram {
+    color: #e4405f; /* Instagram purple */
+}
+
+.social-icons a:hover .fa-whatsapp {
+    color: #008000; /* WhatsApp green */
+}
+/************* Media Queries for Responsiveness */
 @media screen and (max-width: 768px) {
     /* Adjust styles for smaller screens */
     .nav-links {
