@@ -95,7 +95,7 @@ nav a:hover {
 }
 
 .product-card:hover {
-    transform: scale(2.5); /* Zoom in by 25% */
+    transform: scale(1.5); /* Zoom in by 15% */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     cursor: zoom-in;
 }
@@ -108,7 +108,10 @@ nav a:hover {
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
 }
-
+.product-card a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Ensure it takes the parent's color */
+}
 /* Buttons */
 button {
     background-color: #0f03f3;
@@ -262,10 +265,10 @@ button:hover {
     object-fit: contain;
     
 }
-.carousel .carousel-item:hover{
+/* .carousel .carousel-item:hover{
     transform: scale(1.3);
     cursor: zoom-in;
-}
+} */
 
 .carousel h3 {
     margin-top: 0.5rem;
@@ -378,7 +381,7 @@ footer {
 }
 
 .social-icons a:hover .fa-facebook {
-    color: #3b5998; /* Facebook blue */
+    color: #0629f3; /* Facebook blue */
 }
 
 .social-icons a:hover .fa-instagram {
