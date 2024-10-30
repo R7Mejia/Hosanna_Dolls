@@ -10,7 +10,7 @@ const Footer = () => {
             <h3>Social Media</h3>
             <ul className="social-icons">
                 <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/profile.php?id=61556994854401" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} className="fa-facebook" />
                     </a>
                 </li>

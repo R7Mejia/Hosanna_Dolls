@@ -96,7 +96,7 @@ nav a:hover {
 
 .product-card:hover {
     transform: scale(1.5); /* Zoom in by 15% */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 14px 15px rgba(36, 129, 243, 0.2);
     cursor: zoom-in;
 }
 
