@@ -5,7 +5,7 @@ import CategoryBar from '../Components/CategoryBar';
 
 
 const products = [
-    { id: 1, name: 'Female Saints', image: '/imagenes/Female Saints/Santa Clara.jpg', category: 'femaleSaints' },
+    { id: 1, name: 'Female Saints', image: '/imagenes/Female Saints/St. Claire.jpg', category: 'femaleSaints' },
     { id: 2, name: 'Male Saints', price: 19.99, image: '/imagenes/Male Saints/St. Maximiliano Kolbe.jpeg', category: 'maleSaints' },
     { id: 3, name: 'Our Lord Jesus', price: 19.99, image: '/imagenes/Our Lord Jesus/ElBuenPastor.jpg', category: 'ourLordJesus' },
     { id: 4, name: 'Our Blessed Mother', price: 19.99, image: '/imagenes/Our Blessed Mother/Guadalupe.jpg', category: 'ourBlessedMother' },
