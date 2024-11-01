@@ -361,6 +361,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.copyright{
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+}
 .social-icons {
     display: flex;
     justify-content: center;
@@ -391,6 +395,9 @@ footer {
 .social-icons a:hover .fa-whatsapp {
     color: #008000; /* WhatsApp green */
 }
+
+
+
 /************* Media Queries for Responsiveness */
 @media screen and (max-width: 768px) {
     /* Adjust styles for smaller screens */

@@ -26,7 +26,9 @@ const Footer = () => {
                     </a>
                 </li>
             </ul>
-            <p>© {currentYear} R_Mejia | Programmer </p>
+            <div className="copyright">
+                <p>© {currentYear} R_Mejia | Programmer </p>
+            </div>
         </footer>
     );
 };
