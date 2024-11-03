@@ -1,4 +1,6 @@
-/////////Carousel
+
+
+// /////////Carousel
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { productsData } from '../data/productsData';
@@ -22,9 +24,15 @@ const CategoryPage = () => {
         </div>
     );
     
+    //This one might change the format so that it capitalizes each word/h2/title
+    const formatCategoryName = (name) =>
+        name.replace(/([A-Z])/g, ' $1')
+            .replace(/\b\w/g, char => char.toUpperCase())
+            .trim();
+
     return (
         <div>
-            <h2>{categoryName.replace(/([A-Z])/g, ' $1')}</h2>
+            <h2>{formatCategoryName(categoryName)}</h2>
             <Carousel
                 showThumbs={false}
                 infiniteLoop
@@ -43,12 +51,8 @@ const CategoryPage = () => {
                             <h3>{product.name}</h3>
                             <p>{product.description}</p>
                             <p>${product.price}</p>
-
                             <button onClick={() => addToCart(product)}>Add to Cart</button>
-                           {/* <button onClick={() => buy(product)}>Buy</button> */}
-
                         </div>
-                        
                     ))
                 ) : (
                     <p>No products found for this category.</p>

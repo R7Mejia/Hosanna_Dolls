@@ -382,7 +382,7 @@ export const productsData = {
   ],
 
   ///////////////
-  ourLordJesus: [
+ourLordJesus: [
     {
       id: 1,
       name: "Divino Niño Jesús",
@@ -450,10 +450,10 @@ export const productsData = {
     },
     {
       id: 8,
-      name: "Nuestra Sra. del Perpetuo Socorro",
+      name: "Sra. del Perpetuo Socorro",
       price: 40.0,
       imageUrl:
-        "../imagenes/Our Blessed Mother/Nuestra Sra. del Perpetuo Socorro.jpeg",
+        "../imagenes/Our Blessed Mother/Sra. del Perpetuo Socorro.jpeg",
     },
     {
       id: 9,

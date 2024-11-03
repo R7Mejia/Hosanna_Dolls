@@ -6,9 +6,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 const categories = [
     { name: 'all', path: '/' },
     { name: 'femaleSaints', path: '/category/femaleSaints' },
-    { name: 'maleSaints', path: '/category/maleSaints' },
-    { name: 'OurLordJesus', path: '/category/OurLordJesus' },
-    { name: 'OurBlessedMother', path: '/category/OurBlessedMother' },
+    { name: 'MaleSaints', path: '/category/maleSaints' },
+    { name: 'ourLordJesus', path: '/category/ourLordJesus' },
+    { name: 'ourBlessedMother', path: '/category/ourBlessedMother' },
     { name: 'apostlesAngels', path: '/category/apostlesAngels' },
     { name: 'rosaries', path: '/category/rosaries' },
     { name: 'other', path: '/category/other' },
