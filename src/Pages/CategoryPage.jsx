@@ -45,7 +45,7 @@ const CategoryPage = () => {
                             <p>${product.price}</p>
 
                             <button onClick={() => addToCart(product)}>Add to Cart</button>
-                          
+                           {/* <button onClick={() => buy(product)}>Buy</button> */}
 
                         </div>
                         
