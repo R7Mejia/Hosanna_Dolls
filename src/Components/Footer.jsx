@@ -6,7 +6,7 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     const handleProgrammerClick = () => {
-        window.location.href = 'https://docs.google.com/forms/d/1yQ3WW_N9TXi1ZytsGSmIhCvLOW2fF_bOpRLSs0BtUV0/prefill';
+        window.location.href = 'https://docs.google.com/forms/d/1yQ3WW_N9TXi1ZytsGSmIhCvLOW2fF_bOpRLSs0BtUV0/viewform?pli=1&pli=1&edit_requested=true';
     };
 
     return (
