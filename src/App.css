@@ -365,6 +365,12 @@ footer {
     color: rgb(0, 0, 0);
     font-size: 0.9rem;
 }
+.copyright a{
+    color: rgb(0, 0, 0)
+}
+.copyright a:hover{
+    color: rgb(8, 28, 245)
+}
 .social-icons {
     display: flex;
     justify-content: center;
@@ -379,7 +385,7 @@ footer {
 }
 
 .social-icons a {
-    color: #333;
+    color: #adabab;
     font-size: 20px;
     transition: color 0.3s ease-in-out;
 }
