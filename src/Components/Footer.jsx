@@ -34,7 +34,7 @@ const Footer = () => {
                 <p>
                     © {currentYear} R_Mejia |{' '}
                     <a href="#" onClick={handleProgrammerClick}>
-                        Programmer
+                        Programmer 
                     </a>
                 </p>
             </div>
